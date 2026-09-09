@@ -37,7 +37,7 @@
 ## 快速开始
 ### 1.准备工作
 使用 Visual Studio 打开解决方案，编译 `x64 PE_tool` 项目，生成`x64 PE_tool.exe`
-
+> 或者直接使用`Test program`文件下，编译好的`x64 PE_tool.exe`
 ### 2.运行程序
 打开`x64 PE_tool.exe`，或者根据提示输入目标 PE 文件的**完整路径**（例如：`C:\Users\test\myapp.exe`） 
 
