@@ -1,0 +1,9 @@
+﻿  Chack.cpp
+  main.cpp
+  PE_Operation.cpp
+C:\Users\26901\Desktop\cup\x64 PE_tool\x64 PE_tool\main.cpp(42,37): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\Users\26901\Desktop\cup\x64 PE_tool\x64 PE_tool\PE_Operation.cpp(126,101): warning C4244: “参数”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+C:\Users\26901\Desktop\cup\x64 PE_tool\x64 PE_tool\PE_Operation.cpp(156,8): warning C4101: “temp”: 未引用的局部变量
+C:\Users\26901\Desktop\cup\x64 PE_tool\x64 PE_tool\PE_Operation.cpp(167,7): warning C4101: “ItemAdd”: 未引用的局部变量
+  正在生成代码...
+  x64 PE_tool.vcxproj -> C:\Users\26901\Desktop\cup\x64 PE_tool\x64\Debug\x64 PE_tool.exe
