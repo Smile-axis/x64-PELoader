@@ -51,17 +51,17 @@
 ![文件路径带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/%E5%B8%A6%E7%A9%BA%E6%A0%BC.png)
 #### 2.文件路径不带空格
 ![文件路径不带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/%E4%B8%8D%E5%B8%A6%E7%A9%BA%E6%A0%BC.png.png)
-#### 2.win11下的计算器演示
+#### 3.win11下的计算器演示
 ![win11下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Win11_calc.png)
-#### 3.win10下的计算器演示
+#### 4.win10下的计算器演示
 ![win10下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Win10_calc.png)
-#### 4.Dedbg + ASLR
-![Dedbg + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_ASLR.png)
-#### 5.Dedbg + NoASLR
-![Dedbg + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_NoASLR.png)
-#### 6.Release + ASLR
+#### 5.Debug + ASLR
+![Debug + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_ASLR.png)
+#### 6.Debug + NoASLR
+![Debug + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_NoASLR.png)
+#### 7.Release + ASLR
 ![Release + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Release_HelloWorld_ASLR.png)
-#### 7.Release + NoASLR
+#### 8.Release + NoASLR
 ![Release + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Release_HelloWorld_NoASLR.png)
 
 
@@ -70,7 +70,7 @@
 | 类别 | 技术 |
 | :--- | :--- |
 | 语言 | C / C++ |
-| 核心机制 | 手动PE解析、内存节区拉伸、导入表/重定位表修复 |
+| 核心机制 | 手动PE解析、内存节区拉伸、导入表填充（含序号/名称导入）、重定位表修复（IMAGE_REL_BASED_DIR64） |
 | 开发环境 | Visual Studio 2022 |
 
 ---
@@ -83,3 +83,4 @@
   - 资源节（`.rsrc`）及其他数据目录  
   - 延迟导入（Delay-Load）  
   - .NET / CLR 混合程序集  
+> **说明**：以上场景属于 PE 加载器的延伸功能，当前实现优先保证核心流程的完整性和正确性。
