@@ -48,21 +48,21 @@
 ## 效果演示
 
 #### 1.文件路径带空格
-![文件路径带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/%E5%B8%A6%E7%A9%BA%E6%A0%BC.png)
+![文件路径带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/with-space.png)
 #### 2.文件路径不带空格
-![文件路径不带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/%E4%B8%8D%E5%B8%A6%E7%A9%BA%E6%A0%BC.png.png)
+![文件路径不带空格](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/without-space.png)
 #### 3.win11下的计算器演示
-![win11下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Win11_calc.png)
+![win11下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Win11_calc.png)
 #### 4.win10下的计算器演示
-![win10下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Win10_calc.png)
+![win10下的计算器演示](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Win10_calc.png)
 #### 5.Debug + ASLR
-![Debug + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_ASLR.png)
+![Debug + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Debug_ASLR.png)
 #### 6.Debug + NoASLR
-![Debug + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Dedbg_HelloWorld_NoASLR.png)
+![Debug + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Debug_NoASLR.png)
 #### 7.Release + ASLR
-![Release + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Release_HelloWorld_ASLR.png)
+![Release + ASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Release_ASLR.png)
 #### 8.Release + NoASLR
-![Release + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/%E7%A4%BA%E4%BE%8B%E5%9B%BE%E7%89%87/Release_HelloWorld_NoASLR.png)
+![Release + NoASLR](https://github.com/Smile-axis/x64-PELoader/blob/main/screenshots/Release_NoASLR.png)
 
 
 ## 技术栈
